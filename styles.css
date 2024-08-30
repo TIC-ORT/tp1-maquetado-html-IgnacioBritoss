@@ -38,7 +38,7 @@ body {
 }
 
 .lineas .lineaa {
-    width: 600px; /* 3/4 de la anchura */
+    width: 600px; 
     height: 10px;
     background-color: #FFFFFF;
     margin-bottom: 10px;
@@ -75,10 +75,10 @@ body {
     background-color: #E0E0E0;
     padding: 50px;
     display: flex;
-    justify-content: center; /* Centra las columnas y reduce el espacio entre ellas */
+    justify-content: center; 
     align-items: center;
     width: 100%;
-    gap: 230px; /* Ajusta el espacio entre las columnas */
+    gap: 230px; 
     margin-left: -40px;
 }
 
@@ -89,7 +89,7 @@ body {
 }
 
 .lineaGris {
-    width: 200px; /* Más ancho */
+    width: 200px; 
     height: 25px;
     background-color: #BEBEBE;
     margin-bottom: 10px;
@@ -109,7 +109,7 @@ body {
 }
 
 .ancha {
-    width: 200px; /* Misma anchura que las líneas grises de arriba */
+    width: 200px; 
     height: 5px;
 }
 
