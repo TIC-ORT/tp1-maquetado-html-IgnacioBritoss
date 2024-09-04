@@ -8,7 +8,7 @@ body {
 }
 
 
-.rectanguloArriva {
+.rectnguloArriva {
     display: flex;
     background-color: #FFD37C;
     padding: 20px;
@@ -17,7 +17,7 @@ body {
     width: 100%;
 }
 
-.rectanguloGrande {
+.rectnguloGrande {
     width: 225px;
     height: 175px;
     margin-left: 50px;
