@@ -1,12 +1,9 @@
-
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     width: 100%;
     height: 100%;
 }
-
 
 .rectnguloArriva {
     display: flex;
@@ -18,10 +15,11 @@ body {
 }
 
 .rectnguloGrande {
-    width: 225px;
+    width: 215px;
     height: 175px;
-    margin-left: 50px;
+    margin-left: 70px;
     background-color: #F9B65B;
+
 }
 
 .lineas .linea {
@@ -30,47 +28,96 @@ body {
     background-color: #FFFFFF;
     margin-bottom: 10px;
 }
-.lineas .titulox{
-    background-color: #F9B65B ;
+
+.lineas .titulox {
+    background-color: #f7af4a;
     height: 20px;
     width: 400px;
     margin-bottom: 20px;
 }
 
 .lineas .lineaa {
-    width: 600px; 
+    width: 600px;
     height: 10px;
     background-color: #FFFFFF;
     margin-bottom: 10px;
 }
 
-
 .medio {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+    gap: 20px;
     padding: 10px;
 }
 
+/* Ajustar el tamaño de los rectángulos */
 .rectangulo {
-    width: 250px;
-    height: 250px;
+    width: 250px; /* Ocupa todo el espacio disponible dentro de la columna */
+    height: 225px;
     position: relative;
-    justify-content: center;
-    margin: +40px;
-    margin-left: 20%;
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
+/* Colores base */
 .celeste {
-    background-color: #458ae4;
+    background-color: #80b3f7;
 }
 
-.naranja{
+.naranja {
     background-color: #F9B65B;
 }
 
 .rojo {
-    background-color: #f11f1f;
+    background-color: #d45353;
 }
+
+/* Rectángulo superior que ocupa el ancho */
+.rectangulo .rectanguloSuperior {
+    width: 100%;
+    height: 17px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Rectángulo interno más oscuro */
+.rectangulo .rectanguloInterno {
+    width: 60%;
+    height: 60%;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    
+}
+
+/* Colores más oscuros para los rectángulos internos */
+.oscuroCeleste  {
+    background-color: #6099e4;
+}
+
+.oscuroRojo {
+    background-color: #aa4141;
+}
+
+.oscuroNaranja {
+    background-color: #dd9445;
+}
+
+.celeste .rectanguloSuperior {
+    background-color: #6099e4; /* Mismo color que oscuroCeleste */
+}
+
+.naranja .rectanguloSuperior {
+    background-color: #dd9445; /* Mismo color que oscuroNaranja */
+}
+
+.rojo .rectanguloSuperior {
+    background-color: #aa4141; /* Mismo color que oscuroRojo */
+}
+
 .piePagina {
     background-color: #E0E0E0;
     padding: 50px;
@@ -89,7 +136,7 @@ body {
 }
 
 .lineaGris {
-    width: 200px; 
+    width: 200px;
     height: 25px;
     background-color: #BEBEBE;
     margin-bottom: 10px;
@@ -109,12 +156,12 @@ body {
 }
 
 .ancha {
-    width: 200px; 
+    width: 200px;
     height: 5px;
 }
 
-.delgada {
+.d {
     width: 150px;
     height: 5px;
-    margin-left: 30px;
+    margin-left: 27px;
 }
