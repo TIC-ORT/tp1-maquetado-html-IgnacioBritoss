@@ -17,7 +17,7 @@ body {
 .rectnguloGrande {
     width: 215px;
     height: 175px;
-    margin-left: 70px;
+    margin-left: 80px;
     background-color: #F9B65B;
 
 }
@@ -44,23 +44,19 @@ body {
 }
 
 .medio {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
     padding: 10px;
 }
-
 
 .rectangulo {
     width: 250px; 
     height: 225px;
     position: relative;
-    margin-left: 80px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-left: 100px;
 }
 
-/* Colores base */
 .celeste {
     background-color: #80b3f7;
 }
@@ -117,6 +113,12 @@ body {
     background-color: #aa4141; 
 }
 
+.abajii{
+    margin-bottom: 20px;  
+}
+.arrivii{
+    margin-top: 20px;
+}
 .piePagina {
     background-color: #E0E0E0;
     padding: 50px;
