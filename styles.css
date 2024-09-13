@@ -45,14 +45,14 @@ body {
 
 .medio {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tres columnas de igual tamaño */
+    grid-template-columns: repeat(3, 1fr); 
     gap: 20px;
     padding: 10px;
 }
 
-/* Ajustar el tamaño de los rectángulos */
+
 .rectangulo {
-    width: 250px; /* Ocupa todo el espacio disponible dentro de la columna */
+    width: 250px; 
     height: 225px;
     position: relative;
     margin-left: 80px;
@@ -73,7 +73,7 @@ body {
     background-color: #d45353;
 }
 
-/* Rectángulo superior que ocupa el ancho */
+
 .rectangulo .rectanguloSuperior {
     width: 100%;
     height: 17px;
@@ -83,7 +83,6 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-/* Rectángulo interno más oscuro */
 .rectangulo .rectanguloInterno {
     width: 60%;
     height: 60%;
@@ -93,7 +92,7 @@ body {
     
 }
 
-/* Colores más oscuros para los rectángulos internos */
+
 .oscuroCeleste  {
     background-color: #6099e4;
 }
@@ -107,15 +106,15 @@ body {
 }
 
 .celeste .rectanguloSuperior {
-    background-color: #6099e4; /* Mismo color que oscuroCeleste */
+    background-color: #6099e4; 
 }
 
 .naranja .rectanguloSuperior {
-    background-color: #dd9445; /* Mismo color que oscuroNaranja */
+    background-color: #dd9445; 
 }
 
 .rojo .rectanguloSuperior {
-    background-color: #aa4141; /* Mismo color que oscuroRojo */
+    background-color: #aa4141; 
 }
 
 .piePagina {
