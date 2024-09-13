@@ -4,46 +4,33 @@ body {
     width: 100%;
     height: 100%;
 }
-:root {
-    --color-amarillo: #FFD37C;
-    --color-naranja: #F9B65B;
-    --color-blanco: #FFFFFF;
-    --color-anaranjado-claro: #f7af4a;
-    --color-rojo: #d45353;
-    --color-celeste: #80b3f7;
-    --color-rojo-oscuro: #aa4141;
-    --color-celeste-oscuro: #6099e4;
-    --color-naranja-oscuro: #dd9445;
-    --color-gris: #E0E0E0;
-    --color-gris-claro: #BEBEBE;
-}
 
-
-.rectanguloArriva {
+.rectnguloArriva {
     display: flex;
-    background-color: var(--color-amarillo);
+    background-color: #FFD37C;
     padding: 20px;
     gap: 150px;
     align-items: center;
     width: 100%;
 }
 
-.rectanguloGrande {
+.rectnguloGrande {
     width: 215px;
     height: 175px;
     margin-left: 80px;
-    background-color: var(--color-naranja);
+    background-color: #F9B65B;
+
 }
 
 .lineas .linea {
     width: 800px;
     height: 10px;
-    background-color: var(--color-blanco);
+    background-color: #FFFFFF;
     margin-bottom: 10px;
 }
 
 .lineas .titulox {
-    background-color: var(--color-anaranjado-claro);
+    background-color: #f7af4a;
     height: 20px;
     width: 400px;
     margin-bottom: 20px;
@@ -52,7 +39,7 @@ body {
 .lineas .lineaa {
     width: 600px;
     height: 10px;
-    background-color: var(--color-blanco);
+    background-color: #FFFFFF;
     margin-bottom: 10px;
 }
 
@@ -71,16 +58,17 @@ body {
 }
 
 .celeste {
-    background-color: var(--color-celeste);
+    background-color: #80b3f7;
 }
 
 .naranja {
-    background-color: var(--color-naranja);
+    background-color: #F9B65B;
 }
 
 .rojo {
-    background-color: var(--color-rojo);
+    background-color: #d45353;
 }
+
 
 .rectangulo .rectanguloSuperior {
     width: 100%;
@@ -97,42 +85,42 @@ body {
     position: absolute;
     top: 20%;
     left: 20%;
+    
 }
 
-.oscuroCeleste {
-    background-color: var(--color-celeste-oscuro);
+
+.oscuroCeleste  {
+    background-color: #6099e4;
 }
 
 .oscuroRojo {
-    background-color: var(--color-rojo-oscuro);
+    background-color: #aa4141;
 }
 
 .oscuroNaranja {
-    background-color: var(--color-naranja-oscuro);
+    background-color: #dd9445;
 }
 
 .celeste .rectanguloSuperior {
-    background-color: var(--color-celeste-oscuro); 
+    background-color: #6099e4; 
 }
 
 .naranja .rectanguloSuperior {
-    background-color: var(--color-naranja-oscuro); 
+    background-color: #dd9445; 
 }
 
 .rojo .rectanguloSuperior {
-    background-color: var(--color-rojo-oscuro); 
+    background-color: #aa4141; 
 }
 
-.abajii {
+.abajii{
     margin-bottom: 20px;  
 }
-
-.arrivii {
+.arrivii{
     margin-top: 20px;
 }
-
 .piePagina {
-    background-color: var(--color-gris);
+    background-color: #E0E0E0;
     padding: 50px;
     display: flex;
     justify-content: center; 
@@ -151,7 +139,7 @@ body {
 .lineaGris {
     width: 200px;
     height: 25px;
-    background-color: var(--color-gris-claro);
+    background-color: #BEBEBE;
     margin-bottom: 10px;
 }
 
@@ -160,7 +148,7 @@ body {
 }
 
 .lineasBlancas .lineaBlanca {
-    background-color: var(--color-blanco);
+    background-color: #FFFFFF;
     margin-top: 5px;
 }
 
