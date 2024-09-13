@@ -4,33 +4,46 @@ body {
     width: 100%;
     height: 100%;
 }
+:root {
+    --color-amarillo: #FFD37C;
+    --color-naranja: #F9B65B;
+    --color-blanco: #FFFFFF;
+    --color-anaranjado-claro: #f7af4a;
+    --color-rojo: #d45353;
+    --color-celeste: #80b3f7;
+    --color-rojo-oscuro: #aa4141;
+    --color-celeste-oscuro: #6099e4;
+    --color-naranja-oscuro: #dd9445;
+    --color-gris: #E0E0E0;
+    --color-gris-claro: #BEBEBE;
+}
 
-.rectnguloArriva {
+
+.rectanguloArriva {
     display: flex;
-    background-color: #FFD37C;
+    background-color: var(--color-amarillo);
     padding: 20px;
     gap: 150px;
     align-items: center;
     width: 100%;
 }
 
-.rectnguloGrande {
+.rectanguloGrande {
     width: 215px;
     height: 175px;
     margin-left: 80px;
-    background-color: #F9B65B;
-
+    background-color: var(--color-naranja);
 }
 
 .lineas .linea {
     width: 800px;
     height: 10px;
-    background-color: #FFFFFF;
+    background-color: var(--color-blanco);
     margin-bottom: 10px;
 }
 
 .lineas .titulox {
-    background-color: #f7af4a;
+    background-color: var(--color-anaranjado-claro);
     height: 20px;
     width: 400px;
     margin-bottom: 20px;
@@ -39,7 +52,7 @@ body {
 .lineas .lineaa {
     width: 600px;
     height: 10px;
-    background-color: #FFFFFF;
+    background-color: var(--color-blanco);
     margin-bottom: 10px;
 }
 
@@ -58,17 +71,16 @@ body {
 }
 
 .celeste {
-    background-color: #80b3f7;
+    background-color: var(--color-celeste);
 }
 
 .naranja {
-    background-color: #F9B65B;
+    background-color: var(--color-naranja);
 }
 
 .rojo {
-    background-color: #d45353;
+    background-color: var(--color-rojo);
 }
-
 
 .rectangulo .rectanguloSuperior {
     width: 100%;
@@ -85,42 +97,42 @@ body {
     position: absolute;
     top: 20%;
     left: 20%;
-    
 }
 
-
-.oscuroCeleste  {
-    background-color: #6099e4;
+.oscuroCeleste {
+    background-color: var(--color-celeste-oscuro);
 }
 
 .oscuroRojo {
-    background-color: #aa4141;
+    background-color: var(--color-rojo-oscuro);
 }
 
 .oscuroNaranja {
-    background-color: #dd9445;
+    background-color: var(--color-naranja-oscuro);
 }
 
 .celeste .rectanguloSuperior {
-    background-color: #6099e4; 
+    background-color: var(--color-celeste-oscuro); 
 }
 
 .naranja .rectanguloSuperior {
-    background-color: #dd9445; 
+    background-color: var(--color-naranja-oscuro); 
 }
 
 .rojo .rectanguloSuperior {
-    background-color: #aa4141; 
+    background-color: var(--color-rojo-oscuro); 
 }
 
-.abajii{
+.abajii {
     margin-bottom: 20px;  
 }
-.arrivii{
+
+.arrivii {
     margin-top: 20px;
 }
+
 .piePagina {
-    background-color: #E0E0E0;
+    background-color: var(--color-gris);
     padding: 50px;
     display: flex;
     justify-content: center; 
@@ -139,7 +151,7 @@ body {
 .lineaGris {
     width: 200px;
     height: 25px;
-    background-color: #BEBEBE;
+    background-color: var(--color-gris-claro);
     margin-bottom: 10px;
 }
 
@@ -148,7 +160,7 @@ body {
 }
 
 .lineasBlancas .lineaBlanca {
-    background-color: #FFFFFF;
+    background-color: var(--color-blanco);
     margin-top: 5px;
 }
 
